@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(company.jpg);
+    background-repeat: no-repeat;
+  background-size: 100%;
+    width:80%;
+}
+
+
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 60px;
+    background-color: hsl(269, 100%, 96%);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    left:1000PX;
+    
+
+   
+}
+.login-container h3{
+    text-align:center;
+}
+
+.login-container h1{
+    text-align:center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="email"], .form-group input[type="password"]{box-shadow:0 0 10px inset rgb(234, 203, 248);
+ 
+    width: 90%;
+    height: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #f3ecf8;
+    background-color: #efd8f8;
+    border-radius: 5px;
+    
+   
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #48106d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #7b19a8;
+}
+.job-portal-background h1{
+    color:white;
+    position:absolute;
+    top:20px;
+    
+}
+.job-portal-background p{
+    color:white;
+    position: absolute;
+   top:70px;
+}
